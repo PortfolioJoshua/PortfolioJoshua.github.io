@@ -1,0 +1,27 @@
+html{
+    font-size: 62.5%;
+}
+
+.title{
+    text-align: center;
+    margin-top:4rem;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.twoimages{
+    width: 70%;
+    color:black;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 12rem;
+    
+}
+
+.images{
+
+    text-align: center;
+}
+   
+
+    

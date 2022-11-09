@@ -136,7 +136,7 @@ br {
   height: 10%;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("./images/work.jpg");
+  background-image: url("/images/work.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
