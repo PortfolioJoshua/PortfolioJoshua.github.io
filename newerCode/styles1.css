@@ -1,0 +1,328 @@
+/*-
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/*//////desktop////////////////*/
+
+* {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+html {
+  /*font-size: 62.57%;*/
+  font-size: 10px;
+}
+
+body {
+  width: 100%;
+  background-color: blue;
+}
+
+nav li {
+}
+
+nav {
+  /*order:1;*/
+  font-size: 3rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding-top: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #707070;
+  font-weight: 200;
+}
+/*//////////////*/
+
+p {
+}
+
+h1 {
+  color: blue;
+}
+
+h4 {
+}
+
+h5 {
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+nav {
+}
+
+nav li {
+  margin-left: 4rem;
+}
+
+.last-link {
+  margin-right: 4rem;
+}
+
+/*////////
+
+
+
+
+
+////////*/
+
+header {
+  width: 100%;
+  text-align: center;
+  background-color: #add8e6;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 3rem 0px 3rem;
+}
+
+.site-title {
+  font-size: 7.4rem;
+  padding-top: 2rem;
+  color: blue;
+}
+
+.sub-title {
+  font-size: 3.6rem;
+  padding-bottom: 2.6rem;
+}
+
+/*/////////*/
+.most-outer {
+  width: 100%;
+}
+
+.entire-section {
+  display: flex;
+  flex-direction: row;
+  background-color: green;
+  width: 100%;
+}
+
+.main-part-of-page {
+  background-color: yellow;
+  width: 65%;
+}
+
+.main-part-of-page-title-image {
+  width: 68%;
+  height: 43rem;
+  background-image: url("./images/work.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 6rem;
+  margin-left: 10rem;
+  background-color: aqua;
+}
+
+.main-part-of-page-first-date {
+  margin-bottom: 9rem;
+  color: blue;
+  margin-left: 10rem;
+  font-size: 3.6rem;
+  margin-top: 1rem;
+}
+
+
+.main-part-of-page-top {
+  width: 100%;
+}
+
+
+
+.top-heading {
+  font-size: 7.4rem;
+  width: 100%;
+  margin-bottom: 2rem;
+  text-align: center;
+  background-color: blueviolet;
+}
+
+
+.text {
+  font-size: 3.6rem;
+  margin: 0 auto;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  background-color: yellowgreen;
+}
+
+.text-size {
+  font-size: 4.4rem;
+}
+
+
+.keeping-cooking-simple-article-blue-link {
+  background-color: rgb(255, 0, 25);
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 4.4rem;
+  text-align: center;
+}
+
+.three-articles {
+  margin-left: 0rem;
+  width: 100%;
+}
+
+.keep-cooking-simple-precursor {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.large-image {
+  border: 1px solid;
+}
+
+.date {
+  margin-top: 1rem;
+  font-size: 3.6rem;
+  margin-left: 0rem;
+  color: blue;
+}
+
+
+.article-title {
+  font-size: 6.2rem;
+  margin-top: 8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.keeping-cooking-simple-article-first-text {
+}
+
+.blue-link {
+  color: blue;
+  margin-bottom: 7rem;
+  margin-top: 4.4rem;
+  font-size: 3.6rem;
+  width: 90%;
+  margin-left: 10rem;
+  background-color: rgb(0, 255, 72);
+}
+
+.image-and-date {
+  text-align: center;
+  margin-left: 0rem;
+}
+
+.images-on-right {
+  width: 35%;
+}
+
+.image-on-right-top {
+  width: 60%;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  text-align: center;
+  padding: 3rem;
+  margin: 0 auto;
+  margin-top: 6rem;
+}
+
+
+.aside-heading {
+  font-size: 3.3rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+
+/*on upper right*/
+.large-image-lower {
+  border: 1px solid black;
+  width: 80%;
+}
+
+.aside-text {
+  margin: 0rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.8rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+
+.images-on-right-bottom {
+  width: 60%;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 3rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.footer {
+  background-color: #add8e6;
+  text-align: center;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+  font-size: 4.4rem;
+ 
+}
+
+
+
+
+
+
+.keepingCookingSimpleArticle {
+}
+
+.first-image {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,366 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/*////////////////
+///////desktop////////////////*/
+
+* {
+    margin: 0px;
+  }
+  html {
+    font-size: 62.57%;
+  }
+  
+  body {
+    width: 100%;
+    
+  }
+  
+  nav li {
+  }
+  nav {
+    /*order:1;*/
+    font-size: 3rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 200;
+  }
+  
+  .last-link {
+    margin-right: 5rem;
+  }
+  
+  header {
+    width: 100%;
+    background-color: #add8e6;
+    text-align: center;
+  }
+  
+  .site-title {
+    padding-top: 3rem;
+    font-size: 7.4rem;
+    color: blue;
+  }
+  .sub-title {
+    font-size: 3.6rem;
+  
+    padding-left: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  p {
+  }
+  
+  h1 {
+    color: blue;
+  }
+  
+  h4 {
+  }
+  
+  h5 {
+  }
+  
+  /*a {
+    text-decoration: underline;
+  }
+  */
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  
+  nav {
+  }
+  
+  nav li {
+    margin-left: 4rem;
+  }
+  
+  .main-heading {
+    font-size: 7.4rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    /*margin-left: 28rem;*/
+    text-align: center;
+  }
+  
+  .main-text {
+    font-size: 4.4rem;
+    /*margin-right:10.0rem;
+    margin-left: 8.0rem;
+    */
+    margin: 5%;
+    text-align: left;
+    
+  }
+  
+  /**/
+  .entire-section {
+    display: flex;
+    flex-direction: row;
+    
+    width: 80%;
+    
+    
+  }
+  .main-section {
+    
+  }
+  .title-image {
+    width: 68%;
+    height: 37rem;
+  
+    background-image: url("./images/work.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 6rem;
+    margin-left: 13rem;
+    
+  }
+  
+  .first-section {
+    width: 85%;
+    text-align: center;
+    
+    margin:0 auto;
+    
+  }
+  .article-title {
+    font-size: 6.2rem;
+    
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: #add8e6;
+    
+    
+    margin: 0 auto;
+    margin-top: 8rem;
+    margin-bottom:2rem;
+  }
+  
+  .text {
+    font-size: 3.6rem;
+    /*margin-right: 4.4rem;*/
+    margin: 0 auto;
+    background-color: blue;
+  }
+  
+  /*for main paragraph*/
+  .first-date {
+    margin-bottom: 9rem;
+    color: blue;
+    margin-left:36rem;
+    font-size: 3.6rem;
+    margin-top: 1rem;
+  }
+  
+  /*below*/
+  .small-image {
+    /*width:44%;*/
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+  }
+  
+  .date {
+    margin-top: 1rem;
+    font-size: 3.6rem;
+    margin-left: 0rem;
+    color: blue;
+  }
+  
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #add8e6;
+  }
+  
+  .right-handed-boxes {
+    width: 20%;
+    
+    /*background-color: yellow;*/
+  }
+  
+  .aside-heading {
+    font-size: 3.3rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .aside-higher {
+    width: 100%;
+    border-color: #d7d7d7;
+    border-style: solid;
+    border-width: 10px;
+    margin-top: 58rem;
+    background-color: #add8e6;
+    
+    padding:3rem;
+    margin-left: 17rem;
+  }
+  
+  .aside-lower {
+    width: 100%;
+    border-color: #d7d7d7;
+    border-style: solid;
+    border-width: 10px;
+  
+    background-color: #707070;
+    text-align: center;
+    background-color: #add8e6;
+    margin-left: 17rem;
+    margin-top:5rem;
+    padding:3rem;
+    margin-right:10rem;
+    
+  }
+  
+  .aside-text {
+    margin: 0.0rem;
+    text-align: left;
+    font-size: 2.8rem;
+    padding-top:1rem;
+    padding-bottom:2rem;
+  
+  }
+  
+  .image-and-date-first {
+    /*margin-left: 25rem;*/
+    
+    margin-top:7.0rem;
+    margin-right: 0%;
+    background-color: yellow;
+    text-align: center;
+  }
+  
+  .image-and-date {
+    /*margin-left: 10rem;*/
+    text-align: center;
+    margin-left: 0rem;
+    background-color: blue;
+    margin-top:4rem;
+    
+  }
+  
+  .entire-lower-images-and-text {
+    margin-left: 0%;
+    width:100%;
+    background-color: purple;
+    
+    
+  }
+  
+  .bottom-first-articles {
+    margin-top: 20rem;
+    
+    
+    width: 100%;
+    background-color: red;
+  }
+  
+  .keep-cooking-simple {
+    margin-left: 0rem;
+    
+  }
+  
+  .keepingCookingSimpleArticle{
+   margin-left:  10%;
+   width:75%;
+   background-color: #707070;
+  
+   margin: 0 auto;
+  }
+  
+  .first-image {
+  }
+  
+  .text-one {
+    margin-left: 0rem;
+    margin-right: 20rem;
+    text-align: left;
+    background-color: red;
+    width:100%;
+  }
+
+
+  .text-both-bottoms
+{
+    margin: 5%;
+}  
+  
+  /*on upper right*/
+  .small-image-lower {
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  .footer {
+    background-color: #add8e6;
+    text-align: center;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    font-size: 4.4rem;
+    margin-top: 0rem;
+  }
+  
+  .most-outer {
+    width: 100%;
+    
+  }
+  
+  .blue-link {
+    color: blue;
+    margin-bottom: 7.0rem;
+    margin-top: 4.4rem;
+    font-size: 3.6rem;
+    width: 100%;
+  }
+  .keepCooking{
+  margin-left:9rem;
+  }
+  
+
+  .article-title {
+    font-size: 6.2rem;
+    
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: #add8e6;
+    
+    
+    margin: 0 auto;
+    margin-top: 8rem;
+    margin-bottom:2rem;
+  }

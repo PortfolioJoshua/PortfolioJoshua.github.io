@@ -1,0 +1,12 @@
+6/27/22
+Blackjack 5 Card Dealer:
+Rules of the game:
+Cards are dealt with players first and then the dealer.
+Try to score more than the dealer or score twenty-one to win with a blackjack.  
+Scores over twenty-one bust and the player or dealer loses the bet wagered.
+Blackjack scores double the amount.
+Two tens can be divided to play with two hands instead of one.
+Tens, Jacks, Queens, and Kings are all represented by card ten.
+If a player has five cards the player wins automatically.
+A Player's aces can be counted as one or eleven.
+The dealer's aces always count as one and the dealer is dealt a maximum of five cards.
