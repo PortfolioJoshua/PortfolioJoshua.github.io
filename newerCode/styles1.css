@@ -16,8 +16,8 @@
 }
 
 html {
-  /*font-size: 62.57%;*/
-  font-size: 8px;
+  font-size: 6;
+  
 }
 
 body {
@@ -128,10 +128,14 @@ header {
   display: flex;
   flex-direction: row;
   width: 100%;
+  
 }
 
 .main-part-of-page {
   width: 65%;
+  
+  margin-left:10rem;
+  
 }
 
 .main-part-of-page-title-image {
@@ -203,6 +207,7 @@ header {
 
 .large-image {
   border: 1px solid;
+  width:80%;
 }
 
 .date {
@@ -261,7 +266,7 @@ header {
 
 /*on upper right*/
 .large-image-lower {
-  border: 1px solid black;
+  border: 1px solid rgb(102, 47, 47);
   width: 80%;
 }
 
